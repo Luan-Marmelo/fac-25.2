@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define TAM 5
 //Recebe um vetor e exibe quais valores são menores que o valor armazenado na última posição do vetor recebido
-void qtdNumImpar(int vNumX[TAM]){
+void vlrMenorUltimo(int vNumX[TAM]){
        
     int i;
     
@@ -18,7 +18,7 @@ void qtdNumImpar(int vNumX[TAM]){
 int main()
 {
     int vNumX[TAM]; 
-    qtdNumImpar(vNumX);
+    vlrMenorUltimo(vNumX);
     printf("\n");
     return 0;
 }
