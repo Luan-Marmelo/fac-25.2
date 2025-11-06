@@ -14,7 +14,7 @@ void identificador(int vNumX[TAM]){
     int pos;
     printf("\nDigite a posição que deseja consultar (1 a 5): ");
         scanf("%d", &pos);
-    if(pos>=1 && pos<TAM){
+    if(pos>=1 && pos<=TAM){
         printf("\nO valor na posição %d é %d", pos, vNumX[pos-1]);
     } else {
         printf("\nPosição inválida.");
@@ -23,6 +23,6 @@ void identificador(int vNumX[TAM]){
 int main()
 {
     int vNumX[TAM]; identificador(vNumX);
-
+    printf("\n");
     return 0;
 }
